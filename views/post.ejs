@@ -1,0 +1,12 @@
+
+<%- include("partials/header"); -%>
+
+
+    <h1><%=title%></h1>
+    <p><%=content%></p>
+    <form method="get">
+        <button class="btn btn-primary" type="submit" formaction="/edit/<%= id %>">Edit</button>
+    </form>
+
+
+<%- include("partials/footer"); -%>
