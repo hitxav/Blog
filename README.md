@@ -9,7 +9,7 @@ consistency.
 cd to the main directory
 1. Run npm i
 2. Run MongoDB server : `mongod`
-3. `npm app.js`
-4. `npm api.js` 
+3. `node app.js`
+4. `node api.js` 
 
 
